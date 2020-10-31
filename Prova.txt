@@ -1,0 +1,93 @@
+questao 01
+m = float(input("Quantos Metro voce tem ?  :"))
+c = m*100
+print(c,'cm')
+#obs : 1m =100cm
+
+
+
+
+questao 02
+peso=float(input("Qual é a Quantidade de KG  ? : "))
+if peso>50:
+    print("MULTADO!! Você ultrapassou o quantidade de peso")
+    multa = (peso-50) * 4
+    print("voce deve pagar a multa de R${}".format(multa))
+
+
+print("TENHA UM OTIMO DIA SEU PESCADOR ")
+
+
+
+questao 03
+altura= float(input("Digite sua altura?:  "))
+formula= 72.7*altura
+r=formula-58
+print("seu peso ideal seria KG",r)
+
+
+
+
+
+questao 04
+n1=int(input("Digite o primeiro numero :"))
+n2=int(input("Digite o segundo numero :"))
+nreal=float(input("Digite o seu numero real : "))
+r1= n1*2*(n2/2)
+print("o produto do dobro do primeiro com a metade do segundo",r1)
+r2= n1 * 3 +nreal
+print("a soma do triplo do primeiro com o terceiro=",r2)
+r3=nreal**3
+print("o terceiro ao cubo e:", r3)
+
+
+
+
+questao 05
+numero=int(input("digite um numero"))
+if numero==1:
+    print("1-domingo")
+elif numero ==2:
+    print("2-segunda")
+elif numero ==3:
+    print("3-terca feira")
+elif numero ==4:
+    print("4-quarta feira")
+elif numero ==5:
+    print("5-quinta feira")
+elif numero == 6:
+    print("6 - sexta feira")
+elif numero==7:
+    print("7-sabado")
+
+else:
+    print("entrada invalida")
+
+
+
+
+Questao 06
+
+u = int(input("Em que turno você estuda?: digite 1-Matutino; 2-Vespertino; 3-Noturno: "))
+
+if u == 1:
+
+    print("Bom dia!")
+
+if u == 2:
+    print("Boa tarde!")
+
+if  u == 3:
+    print("Boa noite")
+
+
+questao 08
+
+
+v = int(input("Digite um número: "))
+
+if v > 0 :
+print ("Positivo")
+
+elif v < 0 :
+print("Negativo")
