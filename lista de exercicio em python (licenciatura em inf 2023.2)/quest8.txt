@@ -1,0 +1,24 @@
+8) Uma casa de penhores possui 748 objetos que custam, em média, 3489 reais. Um
+homem muito rico pensa em comprar todos os objetos da casa de penhores. Quantos
+reais o homem rico irá gastar?
+
+**versão IA**
+
+valor_objeto = 3489
+quantidade_objetos = 748
+
+total_gasto = valor_objeto * quantidade_objetos
+print("O homem rico irá gastar", total_gasto, "reais para comprar todos os objetos da casa de penhores.")
+
+========= Resultado =========
+O homem rico irá gastar 2609772 reais para comprar todos os objetos da casa de penhores.
+
+**versão professor**
+
+objetos = 748
+custo = 3489
+totalgasto = objetos * custo
+print('Total a gastar: R$ ' ,totalgasto)
+
+========= RESULTADO =========
+Total a gastar: R$  2609772

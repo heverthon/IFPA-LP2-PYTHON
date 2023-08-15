@@ -1,0 +1,24 @@
+11) 456 pessoas dividiram o prêmio máximo de uma loteria. Se cada uma delas ganhou
+3256 reais. Qual era o valor do prêmio máximo dessa loteria?
+
+**versão IA**
+
+numero_pessoas = 456
+valor_por_pessoa = 3256
+
+valor_premio_maximo = numero_pessoas * valor_por_pessoa
+print("O valor do prêmio máximo dessa loteria é de", valor_premio_maximo, "reais.")
+
+========= RESULTADO =========
+O valor do prêmio máximo dessa loteria é de 1484736 reais.
+
+
+**versão professor**
+
+pessoas = 456
+premioind = 3256
+total = pessoas * premioind
+print('Total do prêmio: R$' ,total)
+
+========= RESULTADO =========
+Total do prêmio: R$ 1484736

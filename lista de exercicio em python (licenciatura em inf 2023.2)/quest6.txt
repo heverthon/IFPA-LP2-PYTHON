@@ -1,0 +1,25 @@
+6) A prefeitura de uma cidade distribui, todo o ano, uma cestinha com 40 balas para
+cada criança da cidade. Se na cidade moram 1378 crianças, quantas balas a prefeitura
+terá que comprar?
+
+**versão IA**
+numero_criancas = 1378
+balas_por_crianca = 40
+
+total_balas = numero_criancas * balas_por_crianca
+
+print("A prefeitura terá que comprar", total_balas, "balas.")
+
+========= RESTART: C:/Users/Aluno/Desktop/lista de exercicio/quest5.py =========
+A prefeitura terá que comprar 55120 balas.
+
+**versão professor**
+
+cesta = 40
+crianca = 1378
+totalbalas = cesta * crianca
+print('Total de balas a comprar será: ' ,totalbalas)
+
+========= RESTART: C:/Users/Aluno/Desktop/lista de exercicio/quest5.py =========
+Total de balas a comprar será:  55120
+

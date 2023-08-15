@@ -1,0 +1,25 @@
+9) No Paraná existem cerca de 500 mil famílias que recebem o bolsa família do governo
+federal. Se cada família recebe, em média, 125 reais, quanto o governo federal paga
+para todas as famílias paranaenses que recebem o benefício?
+
+**versão IA*
+quantidade_familias = 500000
+valor_bolsa = 125
+
+total_pago = quantidade_familias * valor_bolsa
+print("O governo federal paga um total de", total_pago, "reais para todas as famílias paranaenses que recebem o benefício do Bolsa Família.")
+
+========= RESULTADO =========
+O governo federal paga um total de 62500000 reais para todas as famílias paranaenses que recebem o benefício do Bolsa Família.
+
+**versão professor**
+
+familias = 500000
+bolsa = 125
+totalbolsa = familias * bolsa
+print('Total gasto me bolsas: R$ ' ,totalbolsa)
+
+========= Resultado =========
+Total gasto me bolsas: R$  62500000
+
+

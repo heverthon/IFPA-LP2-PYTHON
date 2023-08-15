@@ -1,0 +1,24 @@
+10) Em um formigueiro existem 765450 formigas. Um tempo depois morrem 125900 e
+nascem 134800. Quantas formigas, vivas, estão nesse formigueiro depois desse
+tempo?
+
+**versão IA**
+
+formigas_iniciais = 765450
+formigas_mortas = 125900
+formigas_nascidas = 134800
+
+formigas_vivas = formigas_iniciais - formigas_mortas + formigas_nascidas
+print("Após esse tempo, há", formigas_vivas, "formigas vivas no formigueiro.")
+
+========= RESULTADO=========
+Após esse tempo, há 774350 formigas vivas no formigueiro.
+
+**versão professor**
+
+formigas = 765450
+vivas = (formigas - 125900) + 134800
+print('Formigas vivas: ' ,vivas)
+
+========= RESULTADO =========
+Formigas vivas:  774350
