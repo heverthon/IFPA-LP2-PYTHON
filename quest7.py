@@ -2,6 +2,8 @@
 que este sofreu um desconto de 10%.'''
 
 produto = input("Digite o nome do produto: ")
-preco = float(input("Digite o valor do produto: "))
-nv_valor = preco * (1 - 0.10)
-print("O Valor do produto com desconto é: " , nv_valor)
+preco = float(input("Digite o preço do produto: "))
+desconto = preco * 0.1
+novo_preco = preco - desconto
+
+print("O novo valor com desconto é: " , novo_preco)
