@@ -1,0 +1,78 @@
+#Lista2
+#Exercícios Básicos com Entrada de dados
+
+''' quest 1) Escreva um programa que calcula a área de um retângulo. BASE x ALTURA '''
+
+base = float(input("Digite o valor da base: "))
+altura = float(input("Digite o valor da altura: "))
+area = base * altura
+print ("A área do retângulo é: " ,area)
+
+''' quest 2) Escreva um programa para somar três valores inteiros informados pelo usuário. '''
+
+a =int(input("Digite o primeiro valor: "))
+b =int(input("Digite o segundo valor: "))
+c =int(input("Digite o terceiro valor: "))
+soma = a + b + c
+print("A soma dos três valores é: " ,soma)
+
+''' quest 3) Escreva um programa para realizar a média aritmética de dois números. '''
+
+a = float (input("Digite o primeiro valor: "))
+b = float (input("Digite o segundo valor: ")) 
+media = (a+b)/2
+print("A média aritmética dos dois números é: " ,media)
+
+''' quest 4) Escreva um programa que mostre o resultado da expressão (( x – 5) * y) – z '''
+
+x = int (input(" Digite valor de x: "))
+y = int (input(" Digite valor de y: "))
+z = int (input(" Digite valor de z: "))
+total = ((x-5)*y)-z
+print("O resultado da expressão((x-5)*y)-z é: " ,total)
+
+''' quest 5) Escreva um programa que leia um nome e a idade de uma pessoa e em seguida escreva a frase:
+NOME tem IDADE anos. (João tem 30 anos) '''
+
+nome = input("Digite o seu nome: ")
+idade = int(input("Digite a sua idade: "))
+print(nome + "tem" + idade + "anos.")
+
+''' quest 6) Escreva um programa que leia um valor e seja informado o dobro do valor '''
+
+valor = float(input("Digite um valor: "))
+dobro = valor * 2
+print("O dobro do valor é: " ,dobro)
+
+''' quest 7) Escreva um programa que leia dois valores numéricos e realize a subtração deles. '''
+
+valor1 = float(input("Digite o primeiro valor: "))
+valor2 = float(input("Digite o segundo valor: "))
+subt = valor1 - valor2
+print("O resultado da subtração é: " ,subt)
+
+''' quest 8) Escreva um programa que leia uma palavra e em seguida a mostra na tela. ''' 
+
+palavra = input("Digite uma palavra: ")
+print ("A palavra digitada é: " ,palavra)
+
+''' quest 9) Escreva um programa para ler um valor inteiro e escrever o seu antecessor e sucessor. '''
+
+valor = int(input("Digite um valor inteiro: "))
+antecessor = valor - 1
+sucessor = valor + 1
+print("O antecessor de " ,valor, "é " ,antecessor)
+print("O sucessor de " ,valor, "é " ,sucessor)
+
+''' quest 10) Escreva um programa que descubra a idade da pessoa através do ano atual e o ano que nasceu. '''
+
+ano_atual = int(input("Digite o ano atual: "))
+ano_nasc = int(input("Digite o ano de nascimento: "))
+idade = ano_atual - ano_nasc
+print("A idade da pessoa é: " ,idade)
+
+''' quest 11) Escreva um programa que receba um número inteiro, calcule e mostre o cubo deste número.'''
+
+numero = int(input("Digite um número inteiro: "))
+cubo = numero ** 3
+print("O cubo do número é: " ,cubo)
