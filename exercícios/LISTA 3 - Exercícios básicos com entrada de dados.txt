@@ -1,0 +1,98 @@
+#Lista3
+#Exercícios Básicos com Entrada de Dados
+
+''' quest 1) Escreva um programa em Python, que lê o número de um funcionário, seu número de horas
+trabalhadas e o valor que recebe por hora. O algoritmo deve calcular e mostrar o salário deste
+funcionário. '''
+
+func = int(input("Digite sua matrícula: "))
+horas_trab = int(input("Digite suas horas trabalhadas: "))
+rec_por_hora = float(input("Digite o valor que você recebe por hora: "))
+salario_dia = horas_trab * rec_por_hora 
+salario_mes = salario_dia * 30
+print("Você recebe um valor mensal de: " ,salario_mes)
+
+''' quest 2) Escreva um programa em Python para calcular a área de um triângulo, exibindo o resultado final. A
+base e a altura são dados que devem ser lidos como entrada. '''
+
+base = float(input("Digite um valor de base: "))
+altura = float(input("Digite um valor da altura: "))
+area = (base*altura)/2
+print("A área do triângulo é: " ,area)
+
+''' quest 3) Escreva um programa em Python que leia uma temperatura em graus Celsius e apresente-a
+convertida em graus Fahrenheit. A fórmula de conversão é: F = (9 * C + 160) / 5,na qual F é a
+temperatura em Fahrenheit e C é a temperatura em Celsius. '''
+
+c = int(input("Digite o valor em graus Celsius: "))
+f = (9*c+160)/5
+print("A temperatura em graus Celsius é: " ,c, "C°, a temperatura em Fahrenheit é: " ,f, "F°")
+
+''' quest 4) Escreva um programa que leia uma temperatura em Fahrenheit e a apresente convertida em graus
+Celsius. A fórmula de conversão é C = (F – 32) * ( 5 / 9), na qual F é a temperatura em Fahrenheit e
+C é a temperatura em Celcius. '''
+
+f = float (input("Digite a temperatura em Fahrenheit: "))
+c = (f-32) * (5/9)
+print("Sua temperatura em graus Fahrenheit é:" ,f, "F°, e convertido para Celsius é: " ,c, "C°")
+
+''' quest 5) Um motorista deseja colocar no seu tanque X reais de gasolina. Escreva um programa em Python
+para ler o preço do litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu
+colocar no tanque. ''' 
+
+preco_gasolina = float(input("Digite o valor do preço do litro da Gasolina: "))
+
+pago = float(input("Digite o valor a ser pago R$: "))
+litros = pago / preco_gasolina
+print("O valor do litro da gasolina é R$: " ,preco_gasolina, "Você pagou R$: " ,pago, "Você colocou: ",litros,"L")
+
+''' quest 6) Um funcionário recebe um salário fixo mais 4% de comissão sobre as vendas. Escreva um programa
+que receba o salário fixo de um funcionário e o valor de suas vendas, calcule e mostre a comissão e
+o salário final do funcionário. '''
+
+salario = float(input("Digite o valor do seu salário fixo: "))
+vendido = float(input("Digite quanto você vendeu: "))
+comissao = vendido * 0.04
+salario_final = salario + comissao
+print("Sua comissão foi R$: " ,comissao, "e seu salário final foi R$: " ,salario_final)
+
+''' quest 7) Escreva um programa que receba o preço de um produto, calcule e mostre o novo preço, sabendo-se
+que este sofreu um desconto de 10%. '''
+
+produto = input("Digite o nome do produto: ")
+preco = float(input("Digite o preço do produto: "))
+desconto = preco * 0.1
+novo_preco = preco - desconto
+
+print("O novo valor com desconto é: " , novo_preco)
+
+''' quest 8) Escreva um programa que leia duas variáveis inteiras e troque o conteúdo entre elas.'''
+
+a = int(input("Digite o primeiro valor inteiro: "))
+b = int(input("Digite o segundo valor inteiro: "))
+troca = a
+a = b
+b = troca
+print ("A troca do conteúdo é: " ,troca)
+
+''' quest 9) Escreva um programa para calcular e exibir a média ponderada de 2 notas dadas. (nota1= peso 6 e
+nota2= peso 4).'''
+
+nota1 = float(input("Digite sua primeira nota: "))
+nota2 = float(input("Digite sua segunda nota: "))
+peso1 = 6
+peso2 = 4
+media = (nota1 * peso1 + nota2 * peso2) / (peso1 + peso2)
+print("A média ponderada das notas é: " ,media)
+
+''' quest 10) Deseja-se calcular a conta de consumo de energia elétrica de um consumidor. Para isto, escreva um
+programa que leia o código do consumidor, o preço do Kw e a quantidade de Kw consumido, e exiba
+o código do consumidor e o total a pagar. '''
+
+codigo = input("Digite o seu código de consumidor: ")
+preco_kw = float(input("Digite o preço do KW: "))
+quantidade_kw = float(input("Digite a quantidade do KW consumido: "))
+total = preco_kw * quantidade_kw
+print("O seu código de consumidor é: " ,codigo, "E você tem um total à pagar de: " ,total)
+
+
