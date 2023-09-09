@@ -1,0 +1,120 @@
+#Algoritmos e Lógica de programação 
+#Lista 1
+
+''' quest 1) - Em uma fábrica trabalham 245 operários. Se cada um deles ganha 560 reais, quantos 
+reais a fábrica paga por mês para todos os operários? '''
+
+operario = 245
+salario = 560
+total = operario * salario
+print("Total a pagar: R$" ,total)
+
+''' quest 2) Um canil possui 35 compartimentos para abrigar cães. Em cada um deles cabem 32 
+cães. Quantos cães podem ser abrigados nesse canil? '''
+
+comp = 35 
+caes = 32
+quantidade = comp * caes
+print('Quantidade suportada: ' ,quantidade)
+
+''' quest 3) Em uma escola, estudam 1561 alunos. Para a Páscoa deste ano, a diretora vai 
+distribuir uma cesta, com 15 doces dentro, para cada aluno. Quantos doces a diretora 
+terá que comprar? E se cada cesta custar 5 reais, quanto ela irá gastar? '''
+
+alunos = 1561
+cesta = 15
+quantdoces = alunos * cesta
+totalcesta = alunos * 5 
+print("Quantidade de doces a comprar: " ,quantdoces)
+print("Irá gastar R$ " ,totalcesta)
+
+''' 4) O Brasil tem 513 deputados federais. Suponha que cada um deles ganha um salário 
+de 12379 reais por mês? Quanto é pago por mês para todos os deputados? E por ano? '''
+
+numero_de_deputados = 513
+salario_por_mes = 12379
+
+valor_pago_por_mes = numero_de_deputados * salario_por_mes
+valor_pago_por_ano = valor_pago_por_mes * 12
+
+print("Valor pago por mês para todos os deputados: R$" ,valor_pago_por_mes)
+print("Valor pago por ano para todos os deputados: R$" ,valor_pago_por_ano)
+
+''' quest 5) Jorge herdou 340 pérolas de sua avó. Se cada pérola custa, em média, 2120 reais, 
+quanto ele irá ganhar vendendo todas as pérolas? '''
+
+quantidade_perolas = 340
+preco_perola = 2120
+
+ganho_total = quantidade_perolas * preco_perola
+print("Jorge irá ganhar", ganho_total, "reais vendendo todas as pérolas.")
+
+''' quest 6) A prefeitura de uma cidade distribui, todo o ano, uma cestinha com 40 balas para 
+cada criança da cidade. Se na cidade moram 1378 crianças, quantas balas a prefeitura 
+terá que comprar? '''
+
+numero_criancas = 1378
+balas_por_crianca = 40
+
+total_balas = numero_criancas * balas_por_crianca
+
+print("A prefeitura terá que comprar", total_balas, "balas.")
+
+''' quest 7) No mesmo canil do problema de letra b, os cuidados com cada cão custa 10 reais por 
+mês. Quanto o canil gasta por ano para manter os cães? '''
+
+numero_caes = 35 * 32
+custo_por_cao = 10
+
+custo_anual = numero_caes * custo_por_cao * 12
+
+print("O canil gasta", custo_anual, "reais por ano para manter os cães.")
+
+''' quest 8) Uma casa de penhores possui 748 objetos que custam, em média, 3489 reais. Um 
+homem muito rico pensa em comprar todos os objetos da casa de penhores. Quantos 
+reais o homem rico irá gastar? '''
+
+valor_objeto = 3489
+quantidade_objetos = 748
+
+total_gasto = valor_objeto * quantidade_objetos
+print("O homem rico irá gastar", total_gasto, "reais para comprar todos os objetos da casa de penhores.")
+
+
+''' quest 9) No Paraná existem cerca de 500 mil famílias que recebem o bolsa família do governo 
+federal. Se cada família recebe, em média, 125 reais, quanto o governo federal paga 
+para todas as famílias paranaenses que recebem o benefício? '''
+
+quantidade_familias = 500000
+valor_bolsa = 125
+
+total_pago = quantidade_familias * valor_bolsa
+print("O governo federal paga um total de", total_pago, "reais para todas as famílias paranaenses que recebem o benefício do Bolsa Família.")
+
+''' quest 10) Em um formigueiro existem 765450 formigas. Um tempo depois morrem 125900 e 
+nascem 134800. Quantas formigas, vivas, estão nesse formigueiro depois desse 
+tempo? '''
+
+f_vivas = 765450
+f_mortas = 125900
+f_nascidas = 134800
+t_f_vivas_dps = (f_vivas - f_mortas) + f_nascidas
+print("Formigas vivas hoje no formigueiro: " ,t_f_vivas_dps)
+
+''' quest 11) 456 pessoas dividiram o prêmio máximo de uma loteria. Se cada uma delas ganhou 
+3256 reais. Qual era o valor do prêmio máximo dessa loteria? '''
+
+q_ganhadores = 456
+premio_por_pessoa = 3256
+premio_total = q_ganhadores * premio_por_pessoa
+print("Prêmio total da loteria é: " ,premio_total)
+
+
+''' 12) Em um cassino, 644 apostadores ganharam cada um 1890 reais. Quantos reais os 
+apostadores ganharam juntos? '''
+
+apostadores = 644
+dinheiro_pago = 1890
+total = apostadores * dinheiro_pago
+print("Todos os apostadores receberam o total de: " ,total)
+
