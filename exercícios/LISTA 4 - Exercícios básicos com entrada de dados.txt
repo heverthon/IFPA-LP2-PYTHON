@@ -1,0 +1,50 @@
+Lista 4 – Exercícios Básicos com Entrada de Dados
+/// 1) Escreva um programa que leia o número de alunos e de alunas de uma sala. Como saída, o
+programa deve apresentar o número de alunos, em seguida o de alunas e o total de alunos. ///
+
+alunos = int(input("Digite o nº de alunos: "))
+alunas = int(input("Digite o nº de alunas: "))
+
+total = alunos+alunas
+
+print("O nº de alunos é: " ,alunos, "O nº de alunas é: " ,alunas, "O total de alunos é: " ,total)
+
+/// 2) Escreva um programa em Python para o Ministério da Saúde que o auxilie nas informações sobre
+a dengue em Brasília. Esse programa deve receber os dados sobre o número de casos suspeitos,
+o número de casos confirmados e o número de mortes, o sistema deve apresentar cada situação e
+o total. ///
+
+suspeitos = int(input("Digite o nº de casos suspeitos: "))
+confirmados = int(input("Digite o nº de casos confirmados: "))
+mortes = int(input("Digite o nº de casos de mortes: "))
+total = suspeitos + confirmados + mortes
+print ("Casos suspeitos: " ,suspeitos)
+print ("Casos confirmados: " ,confirmados)
+print ("Casos mortes: " ,mortes)
+print("Total de casos: " ,total)
+
+/// 3) Para vários tributos, a base de cálculo é o salário mínimo. Fazer um programa que leia o valor do
+salário mínimo e o valor do salário de uma pessoa. Calcular e imprimir quantos salários mínimos
+ela ganha. ///
+
+sal_min = float(input("Digite o valor do salário mínimo: "))
+sal_pessoa = float(input("Digite o valor do seu salário: "))
+total_sal_min = sal_pessoa / sal_min
+print("Você recebe: " ,total_sal_min)
+
+/// 4) Crie um programa que leia um valor de hora e informe quantos minutos se passaram desde o início
+do dia. ///
+
+hora = int(input("Digite que horas são: "))
+total_minutos = hora * 60
+print("Já se passaram: " ,total_minutos, "Minutos")
+
+/// 5) A imobiliária Central vende apenas terrenos retangulares. Faça um algoritmo para ler as dimensões
+de um terreno e depois exibir a área do terreno. ///
+
+comprimento = float(input("Digite o cumprimento do terreno: ")
+largura = float(input("Digite o largura do terreno: ")
+area = comprimento*lagura
+print("A área do terreno é:" ,area)
+
+
