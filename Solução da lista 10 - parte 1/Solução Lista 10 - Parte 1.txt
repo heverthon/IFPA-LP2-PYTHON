@@ -1,0 +1,112 @@
+Questão 1
+# Recebe peso e altura do usuário
+peso = float(input("Digite o peso do paciente em kg: "))
+altura = float(input("Digite a altura do paciente em metros: "))
+# Calcula o IMC
+imc = peso / (altura ** 2)
+# Exibe o resultado
+print("O Índice de Massa Corporal (IMC) é:", round(imc, 2))
+
+Questão 2
+# Recebe as dimensões da parede
+largura_parede = float(input("Digite a largura da parede em metros: "))
+altura_parede = float(input("Digite a altura da parede em metros: "))
+# Dimensões do tijolo
+largura_tijolo = 0.2 # em metros
+altura_tijolo = 0.1 # em metros
+# Calcula a quantidade de tijolos
+tijolos_por_metro_quadrado = (1 / largura_tijolo) * (1 / altura_tijolo)
+quantidade_tijolos = largura_parede * altura_parede * tijolos_por_metro_quadrado
+# Exibe o resultado
+print("Quantidade de tijolos necessários:", int(quantidade_tijolos))
+
+Questão 3
+# Recebe o número de produtos
+n_produtos = int(input("Digite o número de produtos: "))
+# Inicializa o total
+total = 0
+# Calcula o total a ser pago
+for i in range(n_produtos):
+    preco = float(input(f"Digite o preço do produto {i+1}: "))
+    total += preco
+# Exibe o resultado
+print("Total a ser pago: R$", round(total, 2))
+
+Questão 4
+# Recebe o número de plantas e dias
+numero_plantas = int(input("Digite o número de plantas: "))
+numero_dias = int(input("Digite o número de dias: "))
+# Calcula a quantidade de água necessária
+agua_necessaria = numero_plantas * numero_dias * 0.5 # 0.5 litros por planta por dia
+# Exibe o resultado
+print("Quantidade total de água necessária (em litros):", agua_necessaria)
+
+Questão 5
+# Recebe a distância da viagem em km
+distancia_km = float(input("Digite a distância da viagem em km: "))
+# Custo do combustível por km (0.1 litros por km a R$5,00 por litro)
+custo_por_km = 0.1 * 5.00
+# Calcula o custo total
+custo_total = distancia_km * custo_por_km
+# Exibe o resultado
+print("Custo total do combustível: R$", round(custo_total, 2))
+
+Questão 6
+# Recebe o número de kWh consumidos
+kwh_consumidos = float(input("Digite o número de kWh consumidos: "))
+# Custo por kWh
+custo_por_kwh = 0.50
+# Calcula o custo total
+custo_total = kwh_consumidos * custo_por_kwh
+# Exibe o resultado
+print("Custo mensal de energia elétrica: R$", round(custo_total, 2))
+
+Questão 7
+# Inicializa a soma das notas
+soma_notas = 0
+# Recebe as notas das 4 provas e acumula a soma
+for i in range(1, 5):
+    nota = float(input(f"Digite a nota da prova {i}: "))
+    soma_notas += nota
+# Calcula a média final
+media_final = soma_notas / 4
+# Exibe o resultado
+print("A média final do aluno é:", round(media_final, 2))
+
+Questão 8
+# Recebe a quantidade de produtos e o preço unitário
+quantidade = int(input("Digite a quantidade de produtos: "))
+preco_unitario = float(input("Digite o preço unitário do produto: "))
+# Calcula o desconto conforme a quantidade
+if quantidade >= 30:
+    desconto = 0.15
+elif quantidade >= 20:
+    desconto = 0.10
+elif quantidade >= 10:
+    desconto = 0.05
+else:
+    desconto = 0
+# Calcula o preço final com desconto aplicado
+preco_final = (quantidade * preco_unitario) * (1 - desconto)
+# Exibe o resultado
+print("Preço final com desconto: R$", round(preco_final, 2))
+
+Questão 9
+# Recebe o peso do paciente
+peso_paciente = float(input("Digite o peso do paciente em kg: "))
+# Calcula a dosagem do medicamento
+dosagem = peso_paciente # 1mg por kg de peso
+# Exibe o resultado
+print("A dosagem do medicamento é:", dosagem, "mg")
+
+Questão 10
+# Inicializa a soma das temperaturas
+soma_temperaturas = 0
+# Recebe as temperaturas de cada dia da semana e acumula a soma
+for i in range(1, 8):
+    temperatura = float(input(f"Digite a temperatura do dia {i}: "))
+    soma_temperaturas += temperatura
+# Calcula a média de temperaturas
+media_temperaturas = soma_temperaturas / 7
+# Exibe o resultado
+print("A média das temperaturas da semana é:", round(media_temperaturas, 2), "°C")
